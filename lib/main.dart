@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:percent_indicator/percent_indicator.dart';
 
+
+
 void main() {
   runApp(MyApp());
 }
@@ -218,4 +220,8 @@ class WeatherApp extends StatelessWidget {
       ),
     );
   }
+}
+class Temperature{
+  final String CurrentHumidity,temperature;
+  Temperature(this.CurrentHumidity,this.temperature);
 }
