@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:percent_indicator/percent_indicator.dart';
+import 'package:untitled/pages/data.dart';
 
 
 
@@ -11,7 +12,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: WeatherApp(),
+     // home: WeatherApp(),
+     home: DataFromApi(),
     );
   }
 }
